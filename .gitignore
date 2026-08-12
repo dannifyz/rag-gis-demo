@@ -11,3 +11,9 @@ wheels/
 
 # Environment variables
 .env
+
+# Chroma database
+chroma_db
+
+# Retrievable documents
+data
