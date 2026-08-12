@@ -1,0 +1,22 @@
+[project]
+name = "rag-gis-demo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Shinatip Pattanapitoon", email = "shinatip.ptn@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "chromadb>=1.5.9",
+    "google-genai>=2.17.0",
+    "langchain>=1.3.15",
+    "langchain-chroma>=1.1.0",
+]
+
+[project.scripts]
+rag-gis-demo = "rag_gis_demo:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
