@@ -17,3 +17,6 @@ chroma_db
 
 # Retrievable documents
 data
+
+# Query Results
+result
