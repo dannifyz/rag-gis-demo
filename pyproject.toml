@@ -3,9 +3,6 @@ name = "rag-gis-demo"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-authors = [
-    { name = "Shinatip Pattanapitoon", email = "shinatip.ptn@gmail.com" }
-]
 requires-python = ">=3.14"
 dependencies = [
     "chromadb>=1.5.9",
